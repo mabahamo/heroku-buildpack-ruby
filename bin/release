@@ -7,12 +7,12 @@ if pack = LanguagePack.detect(ARGV[0], ARGV[1])
   puts pack.release
 end
 
-cat << EOF
----
-config_vars:
-  PATH: "/usr/local/bin:/usr/bin:/bin:/app/vendor/phantomjs/bin"
-  LD_LIBRARY_PATH: "/usr/local/lib:/usr/lib:/lib:/app/vendor/phantomjs/lib"
-default_process_types:
-  console: "vendor/phantomjs/bin/phantomjs"
+#cat << EOF
+#---
+#config_vars:
+#  PATH: "/usr/local/bin:/usr/bin:/bin:/app/vendor/phantomjs/bin"
+#  LD_LIBRARY_PATH: "/usr/local/lib:/usr/lib:/lib:/app/vendor/phantomjs/lib"
+#default_process_types:
+#  console: "vendor/phantomjs/bin/phantomjs"
 #{pack.release}
-EOF
+#EOF
