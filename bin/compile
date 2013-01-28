@@ -19,7 +19,9 @@ CACHE_DIR=ARGV[1]
 
 # config
 VERSION="1.8.1"
-S3_BUCKET="stomita-buildpack-phantomjs"
+S3_BUCKET="phantomjs.conectaideas.com"
+
+
 
 puts "BUILD_DIR: #{BUILD_DIR}"
 puts "CACHE_DIR: #{CACHE_DIR}"
