@@ -14,8 +14,8 @@ end
 
 #set -e
 
-BUILD_DIR=$1
-CACHE_DIR=$2
+BUILD_DIR=ARGV[1]
+CACHE_DIR=ARGV[2]
 
 # config
 VERSION="1.8.1"
